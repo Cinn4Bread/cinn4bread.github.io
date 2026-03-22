@@ -50,15 +50,15 @@ body::after {
 
 @keyframes scroll-slow {
   from { background-position: 0 0; }
-  to { background-position: 0 1984px; }
+  to { background-position: 0 500px; }
 }
 
 @keyframes scroll-fast {
   from { background-position: 0 0; }
-  to { background-position: 0 1984px; }
+  to { background-position: 0 500px; }
 }
 
 .wrapper {
   background: #252525;
-  padding: 0 0px;
+  padding: 0 20px;
 }
