@@ -37,14 +37,14 @@ body::before, body::after {
 body::before {
   background-image: url("/assets/images/bottom.png");
   background-repeat: repeat;
-  background-size: 100% 1200px;
+  background-size: 100% 1400px;
   animation: scroll-slow 60s linear infinite;
 }
 
 body::after {
   background-image: url("/assets/images/top.png");
   background-repeat: repeat;
-  background-size: 100% 1200px;
+  background-size: 100% 1400px;
   animation: scroll-fast 30s linear infinite;
 }
 
