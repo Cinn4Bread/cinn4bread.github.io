@@ -37,25 +37,25 @@ body::before, body::after {
 body::before {
   background-image: url("/assets/images/bottom.png");
   background-repeat: repeat;
-  background-size: 490px 490px;
+  background-size: auto 500px;
   animation: scroll-slow 60s linear infinite;
 }
 
 body::after {
   background-image: url("/assets/images/top.png");
   background-repeat: repeat;
-  background-size: 490px 490px;
+  background-size: auto 500px;
   animation: scroll-fast 30s linear infinite;
 }
 
 @keyframes scroll-slow {
   from { background-position: 0 0; }
-  to { background-position: 0 490px; }
+  to { background-position: 0 500px; }
 }
 
 @keyframes scroll-fast {
   from { background-position: 0 0; }
-  to { background-position: 0 490px; }
+  to { background-position: 0 500px; }
 }
 
 .wrapper {
