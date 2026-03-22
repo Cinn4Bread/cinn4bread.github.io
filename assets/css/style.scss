@@ -3,18 +3,16 @@
 
 @import "jekyll-theme-midnight";
 
-#header nav
-{
-  background: transparent
+#header nav {
+  background: transparent;
+  max-width: 800px;
 }
 
-#header nav ul
-{
+#header nav ul {
   text-align: center;
 }
 
-#header nav ul li.fork
-{
+#header nav ul li.fork {
   float: none;
   display: inline-block;
   margin: 0 5px;
@@ -62,4 +60,9 @@ body::after {
 .wrapper {
   background: #252525;
   padding: 0 20px;
+  max-width: 800px;
+}
+
+section {
+  max-width: 800px;
 }
