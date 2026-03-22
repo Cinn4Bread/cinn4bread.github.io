@@ -35,13 +35,13 @@ body::before, body::after {
 }
 
 body::before {
-  background-image: url("/assets/images/layer1.png");
+  background-image: url("/assets/images/bottom.png");
   background-repeat: repeat;
   animation: scroll-slow 30s linear infinite;
 }
 
 body::after {
-  background-image: url("/assets/images/layer2.png");
+  background-image: url("/assets/images/top.png");
   background-repeat: repeat;
   animation: scroll-fast 15s linear infinite;
 }
