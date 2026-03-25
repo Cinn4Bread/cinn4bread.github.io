@@ -1,3 +1,4 @@
+<h1 style="text-align: center; font-weight: bold; text-decoration: underline;">Featured Projects</h1>
 <div class="carousel">
   <button class="carousel-btn left">&#8249;</button>
   <div class="carousel-track">
