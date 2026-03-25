@@ -138,19 +138,24 @@ section {
 }
 
 .carousel-track {
-  overflow: hidden;
-  width: 100%;
-  max-width: 700px;
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-radius: 6px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-radius: 6px
 }
 
 .carousel-title {
-  text-align: center;
-  font-size: 18px;
-  color: #e8e8e8;
-  margin: 0 0;
-  max-width: 700px;
-  background: rgba(50, 50, 50, 0.9);
-  padding: 8px 20px;
+    text-align: center;
+    font-size: 18px;
+    color: #e8e8e8;
+    margin: 0 0;
+    max-width: auto;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0 0 6px 6px;
+    background: rgba(50,50,50,0.9);
+    padding: 8px 20px
 }
