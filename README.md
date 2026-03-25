@@ -1,7 +1,7 @@
-<h1 style="text-align: center; font-weight: bold;">Featured Projects</h1>
 <div class="carousel">
   <button class="carousel-btn left">&#8249;</button>
   <div class="carousel-track">
+    <h1 style="text-align: center; font-weight: bold;">Featured Projects</h1>
     <div class="carousel-slide active">
       <a href="astro-synchronous">
         <img src="assets/images/astroThumb.png" alt="Team: 6 members | AstroSynchronous | Class Project">
