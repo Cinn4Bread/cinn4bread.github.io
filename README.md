@@ -8,7 +8,7 @@
     </div>
     <div class="carousel-slide">
       <a href="void-runner">
-        <img src="assets/images/mall-arena-thumb.png" alt="VoidRunner">
+        <img src="assets/images/mall-arena-thumb.png" alt="Voidrunner">
       </a>
     </div>
     <div class="carousel-slide">
@@ -16,7 +16,7 @@
         <img src="assets/images/mall-arena-thumb.png" alt="Pico Sorter">
       </a>
     </div>
-    <p class="carousel-title">Project Title</p>
+    <p class="carousel-title">AstroSynchronous</p>
   </div>
   <button class="carousel-btn right">&#8250;</button>
 </div>
