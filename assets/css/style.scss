@@ -101,40 +101,44 @@ section {
   margin-top: 20px;
 }
 
+section {
+    margin-top: 20px
+}
+
 .carousel {
-  position: relative;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 30px 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0
 }
 
 .carousel-slide {
-  display: none;
+    display: none
 }
 
 .carousel-slide.active {
-  display: block;
+    display: block
 }
 
 .carousel-slide img {
-  width: 100%;
-  border-radius: 4px;
+    width: 100%;
+    border-radius: 4px
 }
 
 .carousel-btn {
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  font-size: 36px;
-  padding: 10px 16px;
-  cursor: pointer;
-  border-radius: 4px;
-  margin: 0 10px;
+    background: rgba(255,255,255,0.1);
+    color: white;
+    border: 1px solid rgba(255,255,255,0.3);
+    font-size: 45px;
+    padding: 50px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 15px
 }
 
 .carousel-btn:hover {
-  background: rgba(255, 255, 255, 0.25);
+    background: rgba(255,255,255,0.25)
 }
 
 .carousel-track {
@@ -151,7 +155,7 @@ section {
     color: #e8e8e8;
     margin: 0 0;
     max-width: auto;
-    border: 2px solid rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(255,255,255,0.3);
     border-bottom: none;
     border-left: none;
     border-right: none;
