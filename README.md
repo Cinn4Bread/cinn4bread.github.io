@@ -22,4 +22,4 @@
   <button class="carousel-btn right">&#8250;</button>
 </div>
 <hr>
-<h1 style="text-align: center; font-weight: bold;">About Me</h1>
+<h1 style="text-align: center; font-weight: bold; text-size: 35px;">About Me</h1>
