@@ -11,12 +11,7 @@
         <img src="assets/images/mall-arena-thumb.png" alt="Mall Arena">
       </a>
     </div>
-    <div class="carousel-slide">
-      <a href="shmup">
-        <img src="assets/images/shmup-thumb.png" alt="Shmup Prototype">
-      </a>
-    </div>
+    <p class="carousel-title">Mine Sorter</p>
   </div>
   <button class="carousel-btn right">&#8250;</button>
 </div>
-<p class="carousel-title">Mine Sorter</p>
