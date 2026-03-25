@@ -1,7 +1,7 @@
 <div class="carousel">
   <button class="carousel-btn left">&#8249;</button>
   <div class="carousel-track">
-    <h1 class="carousel-title">AstroSynchronous</h1>
+    <h1 class="carousel-title" style="font-size: 30px;">AstroSynchronous</h1>
     <div class="carousel-slide active" data-title="AstroSynchronous" data-desc="Team | February 2026 -> March 2026 | Class Project">
       <a href="astro-synchronous">
         <img src="assets/images/astroThumb.png" alt="AstroSynchronous">
@@ -22,4 +22,4 @@
   <button class="carousel-btn right">&#8250;</button>
 </div>
 <hr>
-<h1 style="text-align: center; font-weight: bold; text-size: 35px;">About Me</h1>
+<h1 style="text-align: center; font-weight: bold; font-size: 30px;">About Me</h1>
