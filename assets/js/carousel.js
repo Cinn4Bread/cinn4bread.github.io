@@ -1,17 +1,15 @@
 $(document).ready(function() {
-  var titles = [];
-  $('.carousel-slide').each(function() {
-    titles.push($(this).find('img').attr('alt'));
-  });
-
   function showSlide(index) {
+    var slide = $('.carousel-slide').eq(index);
     $('.carousel-slide').removeClass('active');
-    $('.carousel-slide').eq(index).addClass('active');
-    $('.carousel-title').text(titles[index]);
+    slide.addClass('active');
+    $('.carousel-title').text(slide.data('title'));
+    $('.carousel-desc').text(slide.data('desc'));
   }
 
   var current = 0;
   var total = $('.carousel-slide').length;
+  showSlide(0);
 
   $('.carousel-btn.right').click(function() {
     current = (current + 1) % total;
