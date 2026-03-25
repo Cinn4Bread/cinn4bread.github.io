@@ -3,17 +3,17 @@
   <div class="carousel-track">
     <div class="carousel-slide active">
       <a href="astro-synchronous">
-        <img src="assets/images/mine-sorter-thumb.png" alt="AstroSynchronous">
+        <img src="assets/images/astroThumb.png" alt="AstroSynchronous">
       </a>
     </div>
     <div class="carousel-slide">
       <a href="void-runner">
-        <img src="assets/images/mall-arena-thumb.png" alt="Voidrunner">
+        <img src="assets/images/voidThumb.png" alt="Voidrunner">
       </a>
     </div>
     <div class="carousel-slide">
       <a href="pico-sorter">
-        <img src="assets/images/mall-arena-thumb.png" alt="Pico Sorter">
+        <img src="assets/images/picoThumb.png" alt="Pico Sorter">
       </a>
     </div>
     <p class="carousel-title">AstroSynchronous</p>
