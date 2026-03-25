@@ -170,7 +170,8 @@ section {
 
 .carousel-title {
     text-align: center;
-    font-size: 18px;
+    font-weight: bold;
+    font-size: 24px;
     color: #e8e8e8;
     margin: 0 0;
     max-width: auto;
@@ -178,7 +179,6 @@ section {
     border-top: none;
     border-left: none;
     border-right: none;
-    border-radius: 0 0 6px 6px;
     background: rgba(50,50,50,0.9);
     padding: 8px 20px
 }
@@ -193,7 +193,6 @@ section {
     border-bottom: none;
     border-left: none;
     border-right: none;
-    border-radius: 0 0 6px 6px;
     background: rgba(50,50,50,0.9);
     padding: 8px 20px
 }
