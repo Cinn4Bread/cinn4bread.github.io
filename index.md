@@ -24,4 +24,4 @@
 <hr>
 <h1 style="text-align: center; font-weight: bold; font-size: 30px;">About Me</h1>
 <br>
-<img src="assets/images/idiot.jpg" alt="It's me!" style="float: left; margin-right: 15px;">
+<img src="assets/images/idiot.jpg" alt="It's me!" style="float: center; margin-left: 15px; max-width: 30%;">
