@@ -24,7 +24,7 @@
 <hr>
 <div style="overflow: hidden;">
 <p style="margin-bottom: 0px;"><img src="assets/images/idiot.jpg" alt="It's me!" style="float: left; margin: 0 15px 0 15px; max-width: 30%;"></p>
-<h1 style="text-align: left; font-size: 30px;">Hi! I'm Ian.</h1>
+<h1 style="text-align: left; font-size: 30px;">Hey there! I'm Ian.</h1>
 <p style="margin-right: 1px;">I'm a Sophomore Game Design major at <strong>Champlain College</strong> with a penchant for making fun, fast-paced video games.</p>
 <p>I have design experience across industry-standard engines such as <strong>Unity</strong> and <strong>Unreal Engine 5</strong>, as well as some knowledge of the <strong>PICO-8</strong> and <strong>Picotron</strong> development platforms through personal experimentation.</p>
 <p style="margin-bottom: 20px;">Above all, I want to create an experience that moves someone like me to go down the road of game development---and continue that chain of inspiration the best that I can!</p>
