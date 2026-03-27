@@ -23,4 +23,8 @@
 </div>
 <hr>
 <h1 style="text-align: center; font-weight: bold; font-size: 30px;">About Me</h1>
-<p style="margin-bottom: 0px;"><img src="assets/images/idiot.jpg" alt="It's me!" style="float: center; margin-left: 15px; max-width: 30%;"></p>
+<div style="overflow: hidden;">
+<p style="margin-bottom: 0px;"><img src="assets/images/idiot.jpg" alt="It's me!" style="float: left; margin: 0 15px 0 15px; max-width: 30%;"></p>
+<h1 style="text-align: center; font-weight: bold; font-size: 30px;">Hi! I'm Ian.</h1>
+<p>I'm a Sophomore <strong>Game Design</strong> major at Champlain College with a penchant for making fun, fast-paced video games.</p>
+</div>
