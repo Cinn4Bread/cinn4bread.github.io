@@ -3,7 +3,7 @@
   <div class="carousel-track">
     <h1 class="carousel-title" style="font-size: 30px;">AstroSynchronous</h1>
     <div class="carousel-slide active" data-title="AstroSynchronous" data-desc="Team | February 2026 -> March 2026 | Class Project">
-      <a href="astroProject">
+      <a href="./astroProject.html">
         <img src="assets/images/astroThumb.png" alt="AstroSynchronous">
       </a>
     </div>
