@@ -25,8 +25,8 @@
 <div style="overflow: hidden;">
 <p style="margin-bottom: 0px;"><img src="assets/images/idiot.jpg" alt="It's me!" style="float: left; margin: 0 15px 0 15px; max-width: 30%;"></p>
 <h1 style="text-align: left; font-size: 30px;">Hi! I'm Ian.</h1>
-<p>I'm a Sophomore <strong>Game Design</strong> major at Champlain College with a penchant for making fun, fast-paced video games.</p>
-<p>I have design experience across industry-standard engines such as Unity and Unreal Engine 5, as well as some knowledge of the PICO-8 and Picotron development platforms through personal experimentation.</p>
+<p style="margin-right: 1px;">I'm a Sophomore <strong>Game Design</strong> major at Champlain College with a penchant for making fun, fast-paced video games.</p>
+<p>I have design experience across industry-standard engines such as <em>Unity</em> and <em>Unreal Engine 5</em>, as well as some knowledge of the <em>PICO-8</em> and <em>Picotron</em> development platforms through personal experimentation.</p>
 <p style="margin-bottom: 20px;">Above all, I want to create an experience that moves someone like me to go down the road of game development---and continue that chain of inspiration the best that I can!</p>
 <h2 style="margin-bottom: 5px;">Contact Me</h2>
 <p style="margin-bottom: 0px;">Phone: <strong><a href="tel:802-323-8791">802-323-8791</a></strong><br>
