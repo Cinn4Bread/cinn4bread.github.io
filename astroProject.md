@@ -1,3 +1,3 @@
 ---
-layout: project
+layout: project.html
 ---
