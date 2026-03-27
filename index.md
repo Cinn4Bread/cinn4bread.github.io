@@ -8,7 +8,7 @@
       </a>
     </div>
     <div class="carousel-slide" data-title="Voidrunner" data-desc="Solo | October 2025 -> December 2025 | Class Project">
-      <a href="void-runner">
+      <a href="astroProject.md">
         <img src="assets/images/voidThumb.png" alt="Voidrunner">
       </a>
     </div>
