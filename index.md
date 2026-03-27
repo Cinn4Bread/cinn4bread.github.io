@@ -3,17 +3,17 @@
   <div class="carousel-track">
     <h1 class="carousel-title" style="font-size: 30px;">AstroSynchronous</h1>
     <div class="carousel-slide active" data-title="AstroSynchronous" data-desc="Team | February 2026 -> March 2026 | Class Project">
-      <a href="astro-synchronous">
+      <a href="astroProject.md">
         <img src="assets/images/astroThumb.png" alt="AstroSynchronous">
       </a>
     </div>
     <div class="carousel-slide" data-title="Voidrunner" data-desc="Solo | October 2025 -> December 2025 | Class Project">
-      <a href="astroProject.md">
+      <a href="voidProject.md">
         <img src="assets/images/voidThumb.png" alt="Voidrunner">
       </a>
     </div>
     <div class="carousel-slide" data-title="PicoSorter" data-desc="Solo | November 2025 -> January 2026 | Personal Project">
-      <a href="pico-sorter">
+      <a href="picoProject.md">
         <img src="assets/images/picoThumb.png" alt="PicoSorter">
       </a>
     </div>
