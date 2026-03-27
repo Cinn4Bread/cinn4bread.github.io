@@ -22,9 +22,14 @@
   <button class="carousel-btn right">&#8250;</button>
 </div>
 <hr>
-<h1 style="text-align: center; font-weight: bold; font-size: 30px;">About Me</h1>
 <div style="overflow: hidden;">
 <p style="margin-bottom: 0px;"><img src="assets/images/idiot.jpg" alt="It's me!" style="float: left; margin: 0 15px 0 15px; max-width: 30%;"></p>
 <h1 style="text-align: center; font-weight: bold; font-size: 30px;">Hi! I'm Ian.</h1>
 <p>I'm a Sophomore <strong>Game Design</strong> major at Champlain College with a penchant for making fun, fast-paced video games.</p>
+<p>I have design experience across industry-standard engines such as Unity and Unreal Engine 5, as well as some knowledge of the PICO-8 and Picotron development platforms through personal experimentation.</p>
+<p>Above all, I want to create an experience that moves someone like me to go down the road of game development---and continue that chain of inspiration the best that I can!</p>
+<br>
+<h3>Contact Me</h3>
+<p>Phone: <strong>802-323-8791</strong></p>
+<p>Email: <strong>ian.hartland72@gmail.com</strong></p>
 </div>
