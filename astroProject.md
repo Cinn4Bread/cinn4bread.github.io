@@ -28,18 +28,21 @@ selfLink: ./astroProject.html
   <h1 style="text-align: left; font-size: 30px;">Project Summary</h1>
   <p> 
     AstroSynchronous is a chaotic, bullet-hell style shoot 'em up with a twist: To deal damage, you must store and discharge energy by allowing your ship to get hit by bullets!<br>
-    Using this unique ability, you must destroy the threat that seeks to devour the Sun—the Cosmic Jellyfish—by absorbing and weaponizing the blasts of energy it fires at you.<br>
-    Be cautious not to absorb too much energy, however—as overloading your ship’s energy coils would lead to certain, explosive doom.<br>
-    As humanity's last hope, can you save the Solar System from a slow, freezing demise? Or will you die trying?
+    Using this unique ability, you must destroy the threat that seeks to devour the Sun—the Cosmic Jellyfish—by absorbing and weaponizing the blasts of energy it fires at you.
   </p>
-  <p> ough............ </p>
+  <p> 
+    This project was a collaborative effort between myself, 2 designers, 2 artists, and one sound designer.<br>
+    Over approximately one month (4 sprints), we worked together to create a game that embodies the design verbs "connect" and "rush".
+  </p>
 </div>
 
 <hr>
 
 <div>
-  <h1 style="text-align: left; font-size: 30px;">Contributions</h1>
-  <p></p>
+  <h1 style="text-align: left; font-size: 30px;">My Contributions</h1>
+  <p>
+    
+  </p>
 </div>
 
 <hr>
