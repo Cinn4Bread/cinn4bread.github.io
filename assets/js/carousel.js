@@ -3,7 +3,7 @@ $(document).ready(function() {
     var slide = $('.carousel-slide').eq(index);
     $('.carousel-slide').removeClass('active');
     slide.addClass('active');
-    $('.carousel-title').text(slide.data('title'));
+    $('.title-link').text(slide.data('title'));
     $('.carousel-desc').text(slide.data('desc'));
     $('.title-link').attr('href', slide.data('link'));
   }
