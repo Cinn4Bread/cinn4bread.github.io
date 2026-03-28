@@ -5,7 +5,7 @@ $(document).ready(function() {
     slide.addClass('active');
     $('.carousel-title').text(slide.data('title'));
     $('.carousel-desc').text(slide.data('desc'));
-    $('.title-link').href(slide.data('link'));
+    $('.title-link').attr('href', slide.data('link'));
   }
 
   var current = 0;
