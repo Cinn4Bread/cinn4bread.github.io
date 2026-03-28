@@ -1,7 +1,9 @@
 <div class="carousel">
   <button class="carousel-btn left">&#8249;</button>
   <div class="carousel-track">
-    <h1 class="carousel-title" style="font-size: 30px;"><a class="title-link" style="color: white;" href="./astroProject.html">AstroSynchronous</a></h1>
+    <h1 class="carousel-title" style="font-size: 30px;">
+      <a class="title-link" style="color: white;" href="./astroProject.html">AstroSynchronous</a>
+    </h1>
     <div class="carousel-slide active" data-link="./astroProject.html" data-title="AstroSynchronous" data-desc="Team | February 2026 -> March 2026 | Class Project">
       <a href="./astroProject.html">
         <img src="assets/images/astroThumb.png" alt="AstroSynchronous">
