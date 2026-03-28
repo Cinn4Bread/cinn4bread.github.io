@@ -8,6 +8,6 @@ role: Visual Designer & Programmer
 itch: https://seamus122405.itch.io/astrosynchronous
 ---
 
-<div style="width: 522px; height: 788px; overflow: hidden; margin: 0 auto;">
-  <iframe src="https://itch.io/embed-upload/16881101?color=252525" allowfullscreen="" width="1044" height="1576" frameborder="0" style="transform: scale(0.5); transform-origin: top left;"></iframe>
+<div style="margin: 0 auto; width: 532px;">
+  <iframe frameborder="0" src="https://itch.io/embed-upload/16958277?color=6775db" allowfullscreen="" width="532" height="808"></iframe>
 </div>
