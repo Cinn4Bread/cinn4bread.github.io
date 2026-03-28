@@ -9,7 +9,7 @@ itch: https://seamus122405.itch.io/astrosynchronous
 selfLink: ./astroProject.html
 ---
 
-<div style="margin: 0 auto; width: 532px;">
+<div style="margin: 0 auto; width: 515px;">
   <iframe frameborder="0" src="games/astrosynchronous/index.html" width="512" height="768" scrolling="no" style="border: 2px solid rgba(255,255,255,0.3); border-radius: 6px;"></iframe>
 </div>
 
@@ -26,7 +26,13 @@ selfLink: ./astroProject.html
 
 <div>
   <h1 style="text-align: left; font-size: 30px;">Project Summary</h1>
-  <p></p>
+  <p> 
+    AstroSynchronous is a chaotic, bullet-hell style shoot 'em up with a twist: To deal damage, you must store and discharge energy by allowing your ship to get hit by bullets!<br>
+    Using this unique ability, you must destroy the threat that seeks to devour the Sun—the Cosmic Jellyfish—by absorbing and weaponizing the blasts of energy it fires at you.<br>
+    Be cautious not to absorb too much energy, however—as overloading your ship’s energy coils would lead to certain, explosive doom.<br>
+    As humanity's last hope, can you save the Solar System from a slow, freezing demise? Or will you die trying?
+  </p>
+  <p> ough............ </p>
 </div>
 
 <hr>
