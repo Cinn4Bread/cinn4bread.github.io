@@ -31,13 +31,15 @@
               <li class="fork"><a href="/" style="padding: 6px 7px;">Return to Home</a></li>
             </ul>
           </nav>
+          <h1><a href="{{ page.itch }}" class="title-link" style="color: white; font-weight: bold;">{{ page.title }}</a></h1>
           <p class="project-info" style="float: right; text-align: right;">
             {{ page.duration }}<br>
             {{ page.role }}
           </p>
-          <h1><a href="{{ page.itch }}" class="title-link" style="color: white; font-weight: bold;">{{ page.title }}</a></h1>
-          <p>{{ page.tagline }}</p>
-          <p>{{ page.type }}</p>
+          <p>
+            {{ page.tagline }}<br>
+            {{ page.type }}
+          </p>
           <hr>
         </div>
 
