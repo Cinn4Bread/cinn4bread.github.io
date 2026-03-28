@@ -11,3 +11,14 @@ itch: https://seamus122405.itch.io/astrosynchronous
 <div style="margin: 0 auto; width: 532px;">
   <iframe frameborder="0" src="games/astrosynchronous/index.html" width="512" height="768" scrolling="no" style="border: 2px solid rgba(255,255,255,0.3); border-radius: 6px;"></iframe>
 </div>
+
+<div style="text-align: center">
+  <h2>Controls</h2>
+  <p>
+    WASD or Arrow Keys to move<br>
+    ; or Space to fire weapon<br>
+    Hold Enter during the intro to skip it
+  </p>
+</div>
+
+
