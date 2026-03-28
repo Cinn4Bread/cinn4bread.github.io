@@ -13,8 +13,8 @@ itch: https://seamus122405.itch.io/astrosynchronous
 </div>
 
 <div style="text-align: center">
-  <h2>Controls</h2>
-  <p>
+  <h2 style="margin: 10px 0 5px;">Controls</h2>
+  <p style="margin-bottom: 15px;">
     WASD or Arrow Keys to move<br>
     ; or Space to fire weapon<br>
     Hold Enter during the intro to skip it
