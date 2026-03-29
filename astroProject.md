@@ -95,9 +95,7 @@ public void ActivateRandomBulletPattern()
 
 <div style="text-align: left; width: 90%; margin: auto;">
 {% highlight csharp %}
-List<EnergyColor> allColors = new() 
-    { EnergyColor.RED, EnergyColor.YELLOW, EnergyColor.BLUE };
-
+List<EnergyColor> allColors = new() { EnergyColor.RED, EnergyColor.YELLOW, EnergyColor.BLUE };
 EnergyColor activeColor = constellationManager.constellationColor;
 allColors.Remove(activeColor);
 foreach (GameObject spawner in bulletSpawnersHigh) 
@@ -114,8 +112,6 @@ foreach (GameObject spawner in bulletSpawnersLow)
 {
     spawner.GetComponent<EnergyBulletShooter>().bulletColor = allColors[1];
 }
-
-Debug.Log($"Updated bullet spawner colors: High - {activeColor}, Medium - {allColors[0]}, Low - {allColors[1]}");
 {% endhighlight %}
 </div>
 
