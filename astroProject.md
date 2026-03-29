@@ -93,29 +93,24 @@ public void ActivateRandomBulletPattern()
   ActivateRandomBulletPattern() selects from a list of designer-created patterns and cascades down through that pattern's bullet spawners to activate each, as well as update the color bullets they're firing.
 </p>
 
-<div style="display: flex; gap: 10px; justify-content: center;">
-  <div style="width: 48%; overflow-x: auto;">
-    {% highlight csharp %}
-    List<EnergyColor> allColors = new() { EnergyColor.RED, EnergyColor.YELLOW, EnergyColor.BLUE };
+<div style="text-align: left; width: 80%; margin: auto;">
+{% highlight csharp %}
+List<EnergyColor> allColors = new() { EnergyColor.RED, EnergyColor.YELLOW, EnergyColor.BLUE };
 EnergyColor activeColor = constellationManager.constellationColor;
 allColors.Remove(activeColor);
-
 foreach (GameObject spawner in bulletSpawnersHigh) { spawner.GetComponent<EnergyBulletShooter>().bulletColor = activeColor; }
 foreach (GameObject spawner in bulletSpawnersMedium) { spawner.GetComponent<EnergyBulletShooter>().bulletColor = allColors[0]; }
 foreach (GameObject spawner in bulletSpawnersLow) { spawner.GetComponent<EnergyBulletShooter>().bulletColor = allColors[1]; }
-
 Debug.Log($"Updated bullet spawner colors: High - {activeColor}, Medium - {allColors[0]}, Low - {allColors[1]}");
-    {% endhighlight %}
-  </div>
-  <p><em>UpdateSpawnerColors()</em></p>
-  <div style="width: 48%; overflow-x: auto;">
-    {% highlight csharp %}
-    foreach (GameObject bullet in bulletSpawnersHigh) { bullet.SetActive(true); }
+{% endhighlight %}
+<p><em>UpdateSpawnerColors()</em></p>
+
+{% highlight csharp %}
+foreach (GameObject bullet in bulletSpawnersHigh) { bullet.SetActive(true); }
 foreach (GameObject bullet in bulletSpawnersMedium) { bullet.SetActive(true); }
 foreach ( GameObject bullet in bulletSpawnersLow) { bullet.SetActive(true); } 
-    {% endhighlight %}
-  </div>
-  <p><em>ActivateSpawners()</em></p>
+{% endhighlight %}
+<p><em>ActivateSpawners()</em></p>
 </div>
 
 <p>
