@@ -29,17 +29,17 @@
           <nav>
             <ul>
               <li class="fork" style="margin-left: 0px; text-align: left;"><a href="/" style="padding: 6px 7px;">Return to Home</a></li>
-              <li class="fork" style="margin-left: 0px; text-align: right;"><a href="{{ itch }}" style="padding: 6px 7px;">Go to Itch Page</a></li>
+              <li class="fork" style="margin-left: 0px; text-align: right;"><a href="{{ page.itch }}" style="padding: 6px 7px;">Go to Itch Page</a></li>
             </ul>
           </nav>
-          <h1 style="color: white; font-weight: bold;">{{ title }}</h1>
+          <h1 style="color: white; font-weight: bold;">{{ page.title }}</h1>
           <p class="project-info" style="float: right; text-align: right;">
-            {{ duration }}<br>
-            {{ role }}
+            {{ page.duration }}<br>
+            {{ page.role }}
           </p>
           <p style="margin-bottom: 20px;">
-            {{ tagline }}<br>
-            {{ type }}
+            {{ page.tagline }}<br>
+            {{ page.type }}
           </p>
           <hr>
         </div>
