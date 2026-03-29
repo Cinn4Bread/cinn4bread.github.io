@@ -65,6 +65,7 @@ function loadGame() {
     I also designed and implemented a system that dynamically switches the boss's attack patterns. This required me to randomize which color bullet was active for that phase (and change their sprites/collisions based on that), what frequency (amount on screen) each of the three bullet types had, and update the UI accordingly to reflect the changes. Additionally, the system is modular---providing designers a straightforward pipeline for creating and implementing new attack patterns, as both systems live solely within the Inspector (no code required). 
   </p>
 
+<div style="text-align: left; width: 70%; margin: auto;">
 {% highlight csharp %}
 public void ActivateRandomBulletPattern()
 {
@@ -86,8 +87,9 @@ public void ActivateRandomBulletPattern()
     activePattern.GetComponent<BulletPattern>().ActivateSpawners();
 }
 {% endhighlight %}
+</div>
 
-<p>
+<p style="margin-top: 20px;">
   ActivateRandomBulletPattern() selects from a list of designer-created patterns and cascades down through that pattern's bullet spawners to activate each, as well as update the color bullets they're firing.
 </p>
 
