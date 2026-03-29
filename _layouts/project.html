@@ -27,20 +27,19 @@
       <section class="project-page" style="padding-bottom: 20px; padding-top: 20px;">
         <div id="title">
           <nav>
-            <ul style="text-align: left;">
-              <li class="fork" style="margin-left: 0px;">
-                <a href="/" style="padding: 6px 7px;">Return to Home</a>
-              </li>
+            <ul>
+              <li class="fork" style="margin-left: 0px; text-align: left;"><a href="/" style="padding: 6px 7px;">Return to Home</a></li>
+              <li class="fork" style="margin-left: 0px; text-align: right;"><a href="{{ itch }}" style="padding: 6px 7px;">Go to Itch Page</a></li>
             </ul>
           </nav>
-          <h1><a href="{{ page.itch }}" class="title-link" style="color: white; font-weight: bold;">{{ page.title }}</a></h1>
+          <h1 style="color: white; font-weight: bold;">{{ title }}</h1>
           <p class="project-info" style="float: right; text-align: right;">
-            {{ page.duration }}<br>
-            {{ page.role }}
+            {{ duration }}<br>
+            {{ role }}
           </p>
           <p style="margin-bottom: 20px;">
-            {{ page.tagline }}<br>
-            {{ page.type }}
+            {{ tagline }}<br>
+            {{ type }}
           </p>
           <hr>
         </div>
@@ -50,9 +49,8 @@
         <div id="title">
           <nav>
             <ul style="margin-bottom: 0px;">
-              <li class="fork" style="margin-left: 0px;">
-                <a href="{{ selfLink }}" style="padding: 6px 7px;">Back to Top</a>
-              </li>
+              <li class="fork" style="margin-left: 0px; text-align: left;"><a href="/" style="padding: 6px 7px;">Return to Home</a></li>
+              <li class="fork" style="margin-left: 0px; text-align: right;"><a href="{{ selfLink }}" style="padding: 6px 7px;">Back to Top</a></li>
             </ul>
           </nav>
         </div>
