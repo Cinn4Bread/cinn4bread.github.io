@@ -9,9 +9,9 @@ itch: https://seamus122405.itch.io/astrosynchronous
 selfLink: ./astroProject.html
 ---
 
-<div id="game-container" style="margin: 0 auto; width: 532px; height: 808px; position: relative; cursor: pointer;" onclick="loadGame()">
+<div id="game-container" style="margin: 0 auto; width: 512px; height: 768px; position: relative; cursor: pointer;" onclick="loadGame()">
   <img src="assets/images/astroGameThumb.png" style="width: 100%; height: 100%; object-fit: cover; border: 2px solid rgba(255,255,255,0.3); border-radius: 6px;">
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 48px; color: white; background: rgba(0,0,0,0.6); padding: 15px 30px; border-radius: 8px;">▶ Play</div>
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 48px; color: white; background: rgba(0,0,0,0.85); padding: 15px 30px; border-radius: 8px;">▶ Play</div>
 </div>
 
 <script>
