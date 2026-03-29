@@ -93,7 +93,7 @@ public void ActivateRandomBulletPattern()
   ActivateRandomBulletPattern() selects from a list of designer-created patterns and cascades down through that pattern's bullet spawners to activate each, as well as update the color bullets they're firing.
 </p>
 
-<div style="text-align: left; width: 90%; margin: auto;">
+<div style="text-align: left; width: 93%; margin: auto;">
 {% highlight csharp %}
 List<EnergyColor> allColors = new() { EnergyColor.RED, EnergyColor.YELLOW, EnergyColor.BLUE };
 EnergyColor activeColor = constellationManager.constellationColor;
@@ -124,15 +124,19 @@ foreach ( GameObject bullet in bulletSpawnersLow) { bullet.SetActive(true); }
 </div>
 
 <p>
-  UpdateSpawnerColors() assigns a random color to each frequency of bullet to keep the player from only needing one type of energy stored for constellation phase, and ActivateSpawners() kicks the pattern as a whole into motion.
-</p>
-  
+  UpdateSpawnerColors() assigns a random color to each frequency of bullet to keep the player from only needing one type of energy stored for the constellation phase, and ActivateSpawners() kicks the pattern as a whole into motion.
+</p>  
 </div>
 
 <hr>
 
 <div style="text-align: center; margin: 0px 35px;">
   <h1 style="font-size: 30px; margin-bottom: 20px;">What I Learned</h1>
-  <p></p>
+  <p>
+    Overall, my first foray into game development with an interdiciplinary team was very interesting! Being able to rely on other people to carry the load of development and bring their own brand of expertise to the project made working on this game quite the fun experience. We even got to present AstroSynchronous during Champlain College's Admitted Student's day alongside senior capstone projects, which honestly still blows my mind.
+  </p>
+  <p>
+    In the end, we as a team all enjoyed working together a lot---And because of that, we've decided that making more games together isn't entirely off the table for us. Maybe we'll participate in a game jam or two down the line... Who knows!
+  </p>
 </div>
 
