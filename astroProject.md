@@ -1,6 +1,6 @@
 ---
 layout: project
-title: AstroSynchronous↗
+title: AstroSynchronous
 tagline: Game Studio 1 Project
 type: Team (6 members)
 duration: February 2026 → March 2026
@@ -133,7 +133,7 @@ foreach ( GameObject bullet in bulletSpawnersLow) { bullet.SetActive(true); }
 <div style="text-align: center; margin: 0px 35px;">
   <h1 style="font-size: 30px; margin-bottom: 20px;">What I Learned</h1>
   <p>
-    Overall, my first foray into game development with an interdiciplinary team was very interesting! Being able to rely on other people to carry the load of development and bring their own brand of expertise to the project made working on this game quite the fun experience. We even got to present AstroSynchronous during Champlain College's Admitted Student's day alongside senior capstone projects, which honestly still blows my mind.
+    Overall, my first foray into game development with an interdisciplinary team was very interesting! Being able to rely on other people to carry the load of development and bring their own brand of expertise to the project made working on this game quite the fun experience. We even got offered the chance to present AstroSynchronous during Champlain College's Admitted Student's day alongside senior capstone projects, which honestly still blows my mind.
   </p>
   <p>
     In the end, we as a team all enjoyed working together a lot---And because of that, we've decided that making more games together isn't entirely off the table for us. Maybe we'll participate in a game jam or two down the line... Who knows!
