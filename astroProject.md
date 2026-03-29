@@ -65,7 +65,7 @@ function loadGame() {
     I also designed and implemented a system that dynamically switches the boss's attack patterns. This required me to randomize which color bullet was active for that phase (and change their sprites/collisions based on that), what frequency (amount on screen) each of the three bullet types had, and update the UI accordingly to reflect the changes. Additionally, the system is modular---providing designers a straightforward pipeline for creating and implementing new attack patterns, as both systems live solely within the Inspector (no code required). 
   </p>
 
-```csharp
+{% highlight csharp %}
 public void ActivateRandomBulletPattern()
 {
     Debug.Log("Bullet pattern started");
@@ -85,47 +85,13 @@ public void ActivateRandomBulletPattern()
     activePattern.GetComponent<BulletPattern>().UpdateSpawnerColors();
     activePattern.GetComponent<BulletPattern>().ActivateSpawners();
 }
-```
+{% endhighlight %}
 
 <p>
   ActivateRandomBulletPattern() selects from a list of designer-created patterns and cascades down through that pattern's bullet spawners to activate each, as well as update the color bullets they're firing.
 </p>
 
-<div style="display: flex; gap: 10px; justify-content: center;">
-  <div style="width: 48%; overflow-x: auto;">
-    ```csharp
-List<EnergyColor> allColors = new() { EnergyColor.RED, EnergyColor.YELLOW, EnergyColor.BLUE };
-EnergyColor activeColor = constellationManager.constellationColor;
-allColors.Remove(activeColor);
 
-foreach (GameObject spawner in bulletSpawnersHigh)
-{
-    spawner.GetComponent<EnergyBulletShooter>().bulletColor = activeColor;
-}
-
-foreach (GameObject spawner in bulletSpawnersMedium)
-{
-    spawner.GetComponent<EnergyBulletShooter>().bulletColor = allColors[0];
-}
-
-foreach (GameObject spawner in bulletSpawnersLow)
-{
-    spawner.GetComponent<EnergyBulletShooter>().bulletColor = allColors[1];
-}
-
-Debug.Log($"Updated bullet spawner colors: High - {activeColor}, Medium - {allColors[0]}, Low - {allColors[1]}");
-```
-<p><em>UpdateSpawnerColors()</em></p>
-  </div>
-  <div style="width: 48%; overflow-x: auto;">
-```csharp
-foreach (GameObject bullet in bulletSpawnersHigh) { bullet.SetActive(true); }
-foreach (GameObject bullet in bulletSpawnersMedium) { bullet.SetActive(true); }
-foreach ( GameObject bullet in bulletSpawnersLow) { bullet.SetActive(true); } 
-```
-<p><em>ActivateSpawners()</em></p>
-  </div>
-</div>
 
 <p>
   ough....
