@@ -52,11 +52,11 @@ function loadGame() {
   
   <div style="display: flex; gap: 10px; justify-content: center; text-align: center;">
   <div style="width: 48%;">
-    <img src="assets/images/astroProject/intro-anim.gif" alt="Intro animation" style="width: 100%;">
+    <img src="assets/images/astroProject/intro-anim.gif" alt="Intro animation" style="width: 100%; height: 580px;">
     <p><em>Intro animation</em></p>
   </div>
   <div style="width: 48%;">
-    <img src="assets/images/astroProject/boss-anim.gif" alt="Boss death animation" style="width: 100%;">
+    <img src="assets/images/astroProject/boss-anim.gif" alt="Boss death animation" style="width: 100%; height: 580px;">
     <p><em>Boss death animation</em></p>
   </div>
 </div>
