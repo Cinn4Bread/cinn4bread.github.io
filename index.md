@@ -6,17 +6,17 @@
     </h1>
     <div class="carousel-slide active" data-link="./astroProject.html" data-title="AstroSynchronous↗" data-desc="Team | February 2026 → March 2026 | Class Project">
       <a href="astroProject">
-        <img src="assets/images/astroThumb.png" alt="AstroSynchronous">
+        <img src="assets/images/astroProject/astroThumb.png" alt="AstroSynchronous">
       </a>
     </div>
     <div class="carousel-slide" data-link="./voidProject.html" data-title="Voidrunner↗" data-desc="Solo | October 2025 → December 2025 | Class Project">
       <a href="./voidProject.html">
-        <img src="assets/images/voidThumb.png" alt="Voidrunner">
+        <img src="assets/images/voidProject/voidThumb.png" alt="Voidrunner">
       </a>
     </div>
     <div class="carousel-slide" data-link="./picoProject.html" data-title="PicoSorter↗" data-desc="Solo | November 2025 → January 2026 | Personal Project">
       <a href="./picoProject.html">
-        <img src="assets/images/picoThumb.png" alt="PicoSorter">
+        <img src="assets/images/picoProject/picoThumb.png" alt="PicoSorter">
       </a>
     </div>
     <p class="carousel-desc">Team | February 2026 -> March 2026 | Class Project</p>
