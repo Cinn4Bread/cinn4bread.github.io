@@ -9,9 +9,16 @@ itch: https://seamus122405.itch.io/astrosynchronous
 selfLink: ./astroProject.html
 ---
 
-<div style="margin: 0 auto; width: 515px;">
-  <iframe frameborder="0" src="games/astrosynchronous/index.html" width="512" height="768" scrolling="no" style="border: 2px solid rgba(255,255,255,0.3); border-radius: 6px;"></iframe>
+<div id="game-container" style="margin: 0 auto; width: 532px; height: 808px; position: relative; cursor: pointer;" onclick="loadGame()">
+  <img src="assets/images/astroGameThumb.png" style="width: 100%; height: 100%; object-fit: cover; border: 2px solid rgba(255,255,255,0.3); border-radius: 6px;">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 48px; color: white; background: rgba(0,0,0,0.6); padding: 15px 30px; border-radius: 8px;">▶ Play</div>
 </div>
+
+<script>
+function loadGame() {
+  document.getElementById('game-container').innerHTML = '<div style="margin: 0 auto; width: 515px;"><iframe src="games/astrosynchronous/index.html" width="512" height="768" scrolling="no" style="border: 2px solid rgba(255,255,255,0.3); border-radius: 6px;"></iframe></div>';
+}
+</script>
 
 <div style="text-align: center">
   <h2 style="margin: 10px 0 5px;">Controls</h2>
