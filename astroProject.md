@@ -25,11 +25,11 @@ selfLink: ./astroProject.html
 
 <script>
 function loadGame() {
-  document.getElementById('game-container').innerHTML = '<div style="margin: 0 auto; width: 515px;"><iframe src="games/astrosynchronous/index.html" width="512" height="768" scrolling="no" style="border: 2px solid rgba(255,255,255,0.3); border-radius: 6px; margin-bottom: 20px;"></iframe></div>';
+  document.getElementById('game-container').innerHTML = '<div style="margin: 0 auto; width: 515px;"><iframe src="games/astrosynchronous/index.html" width="512" height="768" scrolling="no" style="border: 2px solid rgba(255,255,255,0.3); border-radius: 6px;"></iframe></div>';
 }
 </script>
 
-<hr>
+<hr style="margin-top: 25px;">
 
 <div style="text-align: center; margin: 0px 35px;">
   <h1 style="font-size: 30px; margin-bottom: 20px;">Project Summary</h1>
