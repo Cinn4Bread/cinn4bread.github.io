@@ -11,7 +11,7 @@
     </div>
     <div class="carousel-slide" data-link="./voidProject.html" data-title="Voidrunner↗" data-desc="Solo | October 2025 → December 2025 | Class Project">
       <a href="./voidProject.html">
-        <img src="assets/images/voidProject/voidThumb.png" alt="Voidrunner">
+        <img src="assets/images/runnerProject/runnerThumb.png" alt="Voidrunner">
       </a>
     </div>
     <div class="carousel-slide" data-link="./picoProject.html" data-title="PicoSorter↗" data-desc="Solo | November 2025 → January 2026 | Personal Project">
