@@ -6,7 +6,7 @@ type: Solo
 duration: October 2025 → December 2025
 role: Designer, Programmer
 itch: 
-selfLink: ./voidProject.html
+selfLink: ./runnerProject.html
 ---
 
 <div style="text-align: center">
