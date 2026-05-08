@@ -9,8 +9,8 @@
         <img src="assets/images/astroProject/astroThumb.png" alt="AstroSynchronous">
       </a>
     </div>
-    <div class="carousel-slide" data-link="./voidProject.html" data-title="Voidrunner↗" data-desc="Solo | October 2025 → December 2025 | Class Project">
-      <a href="./voidProject.html">
+    <div class="carousel-slide" data-link="./runnerProject.html" data-title="Voidrunner↗" data-desc="Solo | October 2025 → December 2025 | Class Project">
+      <a href="./runnerProject.html">
         <img src="assets/images/runnerProject/runnerThumb.png" alt="Voidrunner">
       </a>
     </div>
