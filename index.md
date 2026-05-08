@@ -14,9 +14,9 @@
         <img src="assets/images/runnerProject/runnerThumb.png" alt="Voidrunner">
       </a>
     </div>
-    <div class="carousel-slide" data-link="./picoProject.html" data-title="PicoSorter↗" data-desc="Solo | November 2025 → January 2026 | Personal Project">
-      <a href="./picoProject.html">
-        <img src="assets/images/picoProject/picoThumb.png" alt="PicoSorter">
+    <div class="carousel-slide" data-link="./voidProject.html" data-title="Void* Stranger↗" data-desc="Duo | March 2026 → April 2026 | Class Project">
+      <a href="./voidProject.html">
+        <img src="assets/images/voidProject/voidThumb.png" alt="Void* Stranger">
       </a>
     </div>
     <p class="carousel-desc">Team | February 2026 -> March 2026 | Class Project</p>
