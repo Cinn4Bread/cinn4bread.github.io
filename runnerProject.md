@@ -5,7 +5,7 @@ tagline: Principles of Game Design
 type: Solo
 duration: October 2025 → December 2025
 role: Designer, Programmer
-itch: 
+itch: https://cinnabread.itch.io/voidrunner
 selfLink: ./runnerProject.html
 ---
 
