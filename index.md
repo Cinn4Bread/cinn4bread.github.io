@@ -2,8 +2,13 @@
   <button class="carousel-btn left">&#8249;</button>
   <div class="carousel-track">
     <h1 class="carousel-title" style="font-size: 30px">
-      <a class="title-link" style="color: white;" href="./voidProject.html">Void* Stranger↗</a>
+      <a class="title-link" style="color: white;" href="./coinProject.html">CoinPunk↗</a>
     </h1>
+    <div class="carousel-slide" data-link="./coinProject.html" data-title="CoinPunk↗" data-desc="Team | May 2026 → June 2026 | Personal Project">
+      <a href="coinProject">
+        <img src="assets/images/coinProject/coinThumb.png" alt="CoinPunk">
+      </a>
+    </div>
     <div class="carousel-slide active" data-link="./voidProject.html" data-title="Void* Stranger↗" data-desc="Duo | March 2026 → April 2026 | Class Project">
       <a href="./voidProject.html">
         <img src="assets/images/voidProject/voidThumb.png" alt="Void* Stranger">
@@ -14,12 +19,7 @@
         <img src="assets/images/astroProject/astroThumb.png" alt="AstroSynchronous">
       </a>
     </div>
-    <div class="carousel-slide" data-link="./runnerProject.html" data-title="Voidrunner↗" data-desc="Solo | October 2025 → December 2025 | Class Project">
-      <a href="./runnerProject.html">
-        <img src="assets/images/runnerProject/runnerThumb.png" alt="Voidrunner">
-      </a>
-    </div>
-    <p class="carousel-desc">Team | February 2026 -> March 2026 | Class Project</p>
+    <p class="carousel-desc">Team | May 2026 → June 2026 | Personal Project</p>
   </div>
   <button class="carousel-btn right">&#8250;</button>
 </div>
