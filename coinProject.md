@@ -1,7 +1,7 @@
 ---
 layout: project
 title: CoinPunk
-tagline: "<a href='https://itch.io/jam/coolmath-game-jam-2026'>The 20k Coolmath Game Jam</a> Submission"   
+tagline: "<a href='https://itch.io/jam/coolmath-game-jam-2026'> The 20k Coolmath Game Jam</a> Submission"   
 type: Team
 duration: "May 2026 → June 2026"
 role: "Designer, Programmer"
