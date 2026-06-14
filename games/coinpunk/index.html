@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas id="unity-canvas" width=800 height=600 tabindex="-1" style="width: 800px; height: 600px; background: #231F20"></canvas>
-    <script src="Build/FinalBuild.loader.js"></script>
+    <script src="Build/CoinPunk.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -27,9 +27,9 @@
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
         arguments: [],
-        dataUrl: "Build/FinalBuild.data.br",
-        frameworkUrl: "Build/FinalBuild.framework.js.br",
-        codeUrl: "Build/FinalBuild.wasm.br",
+        dataUrl: "Build/CoinPunk.data.br",
+        frameworkUrl: "Build/CoinPunk.framework.js.br",
+        codeUrl: "Build/CoinPunk.wasm.br",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Galactic Goblin Studios",
         productName: "CoinPunk",
