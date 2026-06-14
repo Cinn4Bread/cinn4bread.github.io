@@ -10,8 +10,25 @@ selfLink: "./coinProject.html"
 ---   
 
 <div style="text-align: center">
-  <h2 style="margin: 10px 0 5px;">Video</h2>
+  <h2 style="margin: 10px 0 5px;">Controls</h2>
+  <p>
+    Left Click - Select and place components <br>
+    Right Click - Deselect and remove components <br>
+    Enter - Swap lever and component panels <br>
+    R - Restart level (when in SIMULATION mode)
+  </p>
 </div>
+
+<div id="game-container" style="margin: 0 auto; width: 800px; height: 600px; position: relative; cursor: pointer;" onclick="loadGame()">
+  <img src="assets/images/coinProject/coinGameThumb.png" style="width: 100%; height: 100%; object-fit: cover; border: 2px solid rgba(255,255,255,0.3); border-radius: 6px;">
+  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 48px; color: white; background: rgba(0,0,0,0.85); padding: 15px 30px; border-radius: 8px;">▶ Play</div>
+</div>
+
+<script>
+function loadGame() {
+  document.getElementById('game-container').innerHTML = '<div style="margin: 0 auto; width: 515px;"><iframe src="games/coinpunk/index.html" width="800" height="600" scrolling="no" style="border: 2px solid rgba(255,255,255,0.3); border-radius: 6px;"></iframe></div>';
+}
+</script>
 
 <hr style="margin-top: 25px;">
 
