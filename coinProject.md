@@ -1,7 +1,7 @@
 ---
 layout: project
 title: CoinPunk
-tagline: The 20k Coolmath Game Jam Submission
+tagline: "The 20k Coolmath Game Jam" Submission
 type: Team
 duration: "May 2026 → June 2026"
 role: "Designer, Programmer"
