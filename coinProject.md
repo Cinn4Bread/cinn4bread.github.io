@@ -19,16 +19,17 @@ selfLink: "./coinProject.html"
   </p>
 </div>
 
-<div id="game-container" style="margin: 0 auto; width: 800px; height: 600px; position: relative; cursor: pointer;" onclick="loadGame()">
-  <img src="assets/images/coinProject/coinGameThumb.png" style="width: 100%; height: 100%; object-fit: cover; border: 2px solid rgba(255,255,255,0.3); border-radius: 6px;">
-  <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); font-size: 48px; color: white; background: rgba(0,0,0,0.85); padding: 15px 30px; border-radius: 8px;">▶ Play</div>
-</div>
-
 <script>
 function loadGame() {
-  document.getElementById('game-container').innerHTML = '<div style="margin: 0 auto; width: 515px;"><iframe src="games/coinpunk/index.html" width="800" height="600" scrolling="no" style="border: 2px solid rgba(255,255,255,0.3); border-radius: 6px;"></iframe></div>';
+  const directBuildUrl = "https://html-classic.itch.zone/html/17849552/index.html";
+  
+  document.getElementById('game-container').innerHTML = 
+    '<iframe src="' + directBuildUrl + '" width="800" height="600" ' +
+    'style="border:none; margin:0; padding:0; overflow:hidden;" ' +
+    'allow="autoplay; fullscreen; gamepad; cross-origin-isolated" ' +
+    'allowfullscreen></iframe>';
 }
-</script>
+</script>   
 
 <hr style="margin-top: 25px;">
 
